@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+}
+
+
+.fenix_nav {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 0px 190px;
+}
+
+.fenix_nav_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fenix_nav_left a {
+padding: 0 20px;
+}
+
+.nav_button {
+    border: none;
+    background-color: #5BCCD9;
+    border-radius: 30px;
+}
+
+.margin_body {
+    margin: 0px 190px;
+}
+.about {
+    margin-top: 50px;
+    display: flex;
+}
+
+.about img {
+    width: 450px;
+    height: 500px;
+}
+
+.about_text {
+    margin-left: 22px;
+}
+
+
+.about_text h1 {
+    margin: 0px 0px 8px;
+}
+
+.about_text h3 {
+    margin: 8px 0;
+}
+
+#korean {
+    margin-bottom: 60px;
+}
+
+.fenix_colour {
+    color: #E3B23C;
+}
+
+.fenix_composer {
+font-size: 40px;
+}
+
+.fenix_composer:hover {
+    color: #DB504A;
+
+}
+
+.fenix_ux {
+font-size: 30px;
+}
+
+.fenix_ux:hover {
+    color: #5BCCD9;
+    
+}
