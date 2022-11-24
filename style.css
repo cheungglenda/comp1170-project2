@@ -1,11 +1,7 @@
 /*Background*/
- 
-
-.banner {
+ .banner {
 width: 100%;
 height: 100vh;
-
-
 }
 
 .navbar {
@@ -17,6 +13,7 @@ height: 100vh;
   justify-content: space-between;
   background-color: #242f40
 }
+
 /* Top nav buttons */
 .navbar ul li {
     list-style: none;
@@ -30,7 +27,63 @@ height: 100vh;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
   }
+
 /*HOME*/
+.homeWindowFrame {
+  display:flex;
+  width: 1060px;
+  height: 800px;
+  margin-left:15%;
+  margin-right:15%;
+  border: 3px solid #E3B23C;
+}
+
+.homeNavFrame {
+  display:flex;
+  background-color:#E3B23C;
+  width: 1060px;
+  height: 40px;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(147, 147, 147);
+  border-radius: 50%;
+  margin-top: 1%;
+  margin-left:1%;
+  display: inline-flex;
+}
+
+.photoGrid {
+  display:grid;
+  grid-template-columns: 202px 202px 202px 202px 202px;
+  grid-template-rows: 340px;
+  gap:10px;
+  width:100%;
+  max-width:202px;
+  max-height: 340px;
+}
+
+.fenixGrid {
+  background-color:#5BCCD9;
+}
+
+.glendaGrid {
+  background-color:#242F40;
+}
+
+.sanlyGrid {
+  background-color:#EDEBD7;
+}
+
+.justinGrid {
+  background-color:#E3B23C;
+}
+
+.takamiGrid {
+  background-color:#DB504A;
+}
 
 /*FENIX*/
 
