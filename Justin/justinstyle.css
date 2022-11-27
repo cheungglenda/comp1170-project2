@@ -16,7 +16,47 @@ body, html {
       justify-content: space-between;
       background-color: #242f40
     }
-    
+    /*left section*/
+
+.leftsection {
+display: flex;
+top: 15%;
+left: 0;
+width: 40%;
+flex-direction: column;
+
+    }
+.mainphoto {
+
+  max-width: 600px;
+  height: 600px;
+  object-fit: cover;
+  padding-left: 15%;
+  padding-top: 15%;
+}
+.backgroundphotofiller {
+  position: absolute;
+  background-color: #DB504A;
+  width: 405px;
+  height: 600px;
+z-index: -1;
+margin: 2%
+}
+
+/*right section*/
+.rightsection {
+
+  top: 15%;
+  right: 0;
+  width: 50%;
+
+
+}
+.welcometext{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: black;
+}
     /* Top nav buttons */
     .navbar ul li {
         list-style: none;
