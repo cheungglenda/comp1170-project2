@@ -35,8 +35,8 @@ a {
 
 .glendaIntroPic {
     position:absolute;
-    height:458px;
-    width:458px;
+    height:52%;
+    width:65%;
     object-fit:cover;
     margin-left:13%;
     margin-top:5%;
@@ -45,7 +45,7 @@ a {
   .glendaIntroPicBackground {
     position:relative;
     height:458px;
-    width:458px;
+    width:485px;
     background-color:#E3B23C;
     z-index:-1;
     margin-left: 10%;
@@ -75,10 +75,11 @@ a {
 
 .glendaEducation {
     border-left: 8px solid #D38324;
-    height:265px;
+    height:290px;
     width:500px;
     margin-left:10%;
     margin-top:3%;
+    padding-top:3%;
     justify-content:center;
     align-items:center;
 }
@@ -115,4 +116,100 @@ a {
     font-family:Arial, Helvetica, sans-serif;
     font-size:50px;
     font-weight:100;
+}
+
+.glendaHeaderDesc {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:25px;
+  font-weight:100;
+  line-height:0;
+}
+
+.glendaFadeImage1 {
+  position:absolute;
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  width:350px;
+  height:350px;
+  margin-top:1%;
+  object-fit:cover;
+}
+
+.glendaFadeImage2 {
+  position:absolute;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  width:350px;
+  height:350px;
+  justify-content:right;
+  margin-left:40%;
+  margin-top:25%;
+  object-fit:cover;
+  z-index:2;
+}
+
+.glendaFadeImage3 {
+  position:absolute;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  width:350px;
+  height:350px;
+  justify-content:right;
+  margin-top:50%;
+  object-fit:cover;
+  z-index:2;
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.glendaSecondBodyContPic {
+  position:absolute;
+  height:458px;
+  width:87%;
+  object-fit:cover;
+  margin-left:6%;
+  margin-top:2%;
+}
+
+.glendaSecondBodyContBackground {
+  position:relative;
+  height:458px;
+  width:85%;
+  background-color:#242F40;
+  z-index:-1;
+  margin-left:4%;
+  margin-top:63%;
+}
+
+.glendaTextBox {
+  width:500px;
+  height:500px;
+  background-color:#DB504A;
+  position: absolute;
+  margin-top:5%;
+  margin-left:4%;
+}
+
+.glendaBoxDesc {
+  font-family:Arial, Helvetica, sans-serif;
+  color:#ffffff;
+  font-weight:100;
+  font-size:25px;
+  position:relative;
+  top:18%;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin:8%;
 }
