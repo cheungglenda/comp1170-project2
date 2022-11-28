@@ -77,3 +77,46 @@ font-size: 30px;
     color: #5BCCD9;
     
 }
+
+.big_name {
+    background-color: #EDEBD7;
+    height: 967px;
+    margin: 0px 190px;
+}
+
+.my_name {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D38324;
+}
+
+.who {
+    background-color: white;
+    height: 967px;
+    margin: 90px 190px;
+}
+
+.fenix_me {
+    margin: 0;
+    color: #D38324;
+}
+
+.fenix_profile_photo {
+    width: 500px;
+    height: 600px;
+    margin: 128px 0px 90px 140px;
+    object-fit: cover;
+    display: flex;
+}
+
+.whatever {
+    display: flex;
+}
+
+.Fenix_me_text {
+    margin: 128px 0px 90px 38px;
+
+}
