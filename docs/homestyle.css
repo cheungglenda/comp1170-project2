@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body , html {
   height: 100%;
   margin: 0px;
@@ -91,6 +92,37 @@ margin: auto;
   color:#5BCCD9;
   text-decoration:none;
 }
+=======
+/*Background*/
+.background {
+width: 100%;
+height: 100vh;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #242f40
+}
+
+/* Top nav buttons */
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif
+  }
+
+>>>>>>> d06504b (not me forgetting the s for docs)
 /*HOME*/
 
 a {
@@ -100,17 +132,30 @@ a {
 }
 
 .homeWindowFrame {
+<<<<<<< HEAD
   width: 900px;
   height: 600px;
   margin: auto;
   border: 3px solid #E3B23C;
   background-color:#e4e0d9;
+=======
+  position:absolute;
+  width: 1060px;
+  height: 800px;
+  margin-left:15%;
+  margin-right:15%;
+  border: 3px solid #E3B23C;
+>>>>>>> d06504b (not me forgetting the s for docs)
 }
 
 .homeNavFrame {
   display:flex;
   background-color:#E3B23C;
+<<<<<<< HEAD
   width: 900px;
+=======
+  width: 1060px;
+>>>>>>> d06504b (not me forgetting the s for docs)
   height: 40px;
 }
 
@@ -131,12 +176,19 @@ a {
   gap:10px;
   width:100%;
   justify-content:center;
+<<<<<<< HEAD
   margin-top:15%;
+=======
+  margin-top:25%;
+>>>>>>> d06504b (not me forgetting the s for docs)
 }
 
 .fenixGrid {
   background-color:#5BCCD9;
+<<<<<<< HEAD
    opacity: 0.8;
+=======
+>>>>>>> d06504b (not me forgetting the s for docs)
 }
 
 .fenixGridLink {
@@ -150,7 +202,10 @@ a {
 
 .glendaGrid {
   background-color:#242F40;
+<<<<<<< HEAD
   opacity: 0.8;
+=======
+>>>>>>> d06504b (not me forgetting the s for docs)
 }
 
 .glendaGridLink {
@@ -164,6 +219,7 @@ a {
 
 .sanlyGrid {
   background-color:#EDEBD7;
+<<<<<<< HEAD
   opacity: 0.8;
 }
 .sanly{
@@ -179,11 +235,25 @@ a {
   font-size:22px;
   text-align:center;
 
+=======
+}
+
+.sanlyGridLink {
+  width:150px;
+  height:70px;
+  background-color:#314056;
+  font-size:24px;
+  text-align:center;
+  margin-top:270px;
+>>>>>>> d06504b (not me forgetting the s for docs)
 }
 
 .justinGrid {
   background-color:#E3B23C;
+<<<<<<< HEAD
   opacity: 0.8;
+=======
+>>>>>>> d06504b (not me forgetting the s for docs)
 }
 
 .justinGridLink {
@@ -197,7 +267,10 @@ a {
 
 .takamiGrid {
   background-color:#DB504A;
+<<<<<<< HEAD
   opacity: 0.8;
+=======
+>>>>>>> d06504b (not me forgetting the s for docs)
 }
 
 .takamiGridLink {
@@ -210,6 +283,7 @@ a {
 }
 
 .about{
+<<<<<<< HEAD
    display: grid;
    justify-content: center;
    text-align: center;
@@ -217,5 +291,20 @@ a {
 }
 h2{
     font-size: 32px;
+=======
+    display: grid;
+   justify-content: center;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+width: 100%;
+     gap: 20px;
+}
+h1 {
+    font-size: 60px;
+}
+h2{
+    font-size: 36px;
+    
+>>>>>>> d06504b (not me forgetting the s for docs)
 }
 
