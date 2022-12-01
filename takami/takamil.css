@@ -131,7 +131,7 @@
     .volunteering{
        grid-area: a;
        width: 600px;
-       height: 500px;
+       height: 1000px;
        background-color:#DB504A;
        text-align:center;
     }
@@ -139,7 +139,7 @@
     .friends{
       grid-area: b;
       width: 600px;
-       height: 500px;
+       height: 1000px;
        background-color:#DB504A;
        text-align:center;
     }
@@ -147,7 +147,7 @@
     .travel{
       grid-area: c;
       width: 600px;
-       height: 500px;
+       height: 1000px;
        background-color:#DB504A;
        text-align:center;
     }
@@ -155,7 +155,7 @@
     .dog {
       grid-area: d;
       width: 600px;
-       height: 500px;
+       height: 1000px;
        background-color:#DB504A;
        text-align:center;
     }
