@@ -1,7 +1,6 @@
 /*Background*/
 .background {
 width: 100%;
-height: 100vh;
 }
 
 .navbar {
@@ -36,18 +35,17 @@ a {
 }
 
 .homeWindowFrame {
-  position:absolute;
-  width: 1060px;
-  height: 800px;
-  margin-left:15%;
-  margin-right:15%;
+  width: 900px;
+  height: 600px;
+  margin: auto;
   border: 3px solid #E3B23C;
+  background-color:#e4e0d9;
 }
 
 .homeNavFrame {
   display:flex;
   background-color:#E3B23C;
-  width: 1060px;
+  width: 900px;
   height: 40px;
 }
 
@@ -68,11 +66,12 @@ a {
   gap:10px;
   width:100%;
   justify-content:center;
-  margin-top:25%;
+  margin-top:15%;
 }
 
 .fenixGrid {
   background-color:#5BCCD9;
+   opacity: 0.8;
 }
 
 .fenixGridLink {
@@ -86,6 +85,7 @@ a {
 
 .glendaGrid {
   background-color:#242F40;
+  opacity: 0.8;
 }
 
 .glendaGridLink {
@@ -99,19 +99,26 @@ a {
 
 .sanlyGrid {
   background-color:#EDEBD7;
+  opacity: 0.8;
+}
+.sanly{
+  width: 100%;
+  height: 79%;
+
 }
 
 .sanlyGridLink {
-  width:150px;
-  height:70px;
+  width:100%;
+  height:20%;
   background-color:#314056;
-  font-size:24px;
+  font-size:22px;
   text-align:center;
-  margin-top:270px;
+
 }
 
 .justinGrid {
   background-color:#E3B23C;
+  opacity: 0.8;
 }
 
 .justinGridLink {
@@ -125,6 +132,7 @@ a {
 
 .takamiGrid {
   background-color:#DB504A;
+  opacity: 0.8;
 }
 
 .takamiGridLink {
@@ -137,15 +145,11 @@ a {
 }
 
 .about{
-    display: grid;
+   display: grid;
    justify-content: center;
    text-align: center;
    font-family:Arial, Helvetica, sans-serif;
-width: 100%;
-     gap: 20px;
-}
-h1 {
-    font-size: 60px;
+   width: 100%;
 }
 h2{
     font-size: 36px;
