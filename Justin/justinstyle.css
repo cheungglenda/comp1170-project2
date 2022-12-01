@@ -167,9 +167,6 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #7BD6E0;
-  transform: scale(1.05);
-  transition: all .5s ease-in-out;
-  object-fit: cover;
 }
 
 /* selected link */
