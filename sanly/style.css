@@ -1,0 +1,192 @@
+body {
+    width: 100%;
+    height: fit-content;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: white;
+}
+
+/*top nav */
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #242F40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 120%;
+}
+
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242F40;
+    margin-left: 20px;
+}
+
+.top {
+    width: 100%;
+    height: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.container0 {
+    display: flex;
+}
+
+.blueBox0 {
+    width: 50%;
+    height: 488px;
+    background-color: #242F40;
+}
+
+.yellowBox0 {
+    width: 50%;
+    height: 488px;
+    background-color: #E3B23C;
+}
+
+.myPhoto0 {
+    width: 500px;
+    height: 492px;
+    background-color: black;
+    position: relative;
+    top: -350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 {
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.textBox1 {
+    width: 50%;
+    border-left: 10px solid #DB504A;
+    height: 350px;
+    position: relative;
+    top: -300px;
+    text-align: left;
+    margin-right: 30px;
+    margin-left: 5px;
+  
+}
+.textBox1 ul li{
+    color: #242F40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    
+    
+}
+
+.header1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242F40;
+    margin-left: 40px;
+}
+
+.text1 {
+    color: #242F40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.redBox1 {
+    position: relative;
+    width: 50%;
+    height: 350px;
+    position: relative;
+    top: -300px;
+    background-color: #DB504A;
+    margin: auto;
+    margin-right: 5px;
+
+
+}
+
+.middle {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    top: 150px;
+    margin: auto;
+    display: flex;
+}
+
+.yellowBox2 {
+    width: 80%;
+    height: 700px;
+    background-color: #E3B23C;
+    position: relative;
+    margin: auto;
+
+
+
+}
+
+.blueBox2 {
+    width: 100%;
+    height: 150px;
+    background-color: #242F40;
+    position: relative;
+    top: -200px;
+    left: -200px;
+    margin: auto;
+}
+
+.frame2 {
+    width: 80%;
+    height: 80%;
+    border: 3px solid #5BCCD9;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.container2 {
+    height: 450px;
+    width: 20%;
+    background-color: #E3B23C;
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myPhoto1 {
+    height: 35%;
+    width: 40%;
+    background-color: #DB504A;
+    position: absolute;
+    top: 410px;
+    right: 100px;
+    opacity: 0.5;
+}
