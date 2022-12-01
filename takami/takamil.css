@@ -1,225 +1,215 @@
+.page1{
+   padding-top: 70px;
+   padding-bottom: 130px;
+   display: flex;
+   flex-direction: row;
+   background-color: #EDEBD7;
+}
 
-     .page1{
-        padding-top: 70px;
-        padding-bottom: 130px;
-        display: flex;
-        flex-direction: row;
-        background-color: #EDEBD7;
-     }
-    
-    .intro{
-        padding-left: 130px;
-        padding-top: 120px;
-    }
+.intro{
+   padding-left: 130px;
+   padding-top: 120px;
+}
 
-    .sns{
-       width:50px;
-       height: 50px;
-       padding-left: 50px;
-       padding-top: 50px;
-    }
-     
-    .firstpic{
-       border-radius: 100px 100px 0px 0px;   
-       width: 560px;
-       height: 550px;
-       padding-left: 80px;
+.sns{
+  width:50px;
+  height: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
 
-    }
-     
-    .name{
-       font-size: 60px;
-       font-family:'PT Serif';
-    }
+.firstpic{
+  border-radius: 100px 100px 0px 0px;  
+  width: 560px;
+  height: 550px;
+  padding-left: 80px;
 
-    .ocupy{
-        font-size: 20px;
-        font-family:'PT Serif';
-       padding-left: 30px;
+}
 
-    }
- 
-    .page2{
-        display:flex;
-        flex-direction: row;
-    }
+.name{
+  font-size: 60px;
+  font-family:'PT Serif';
+}
 
-    .educationInformation{
-        padding-top: 30px;
-        padding-bottom: 240px;
-    }
+.ocupy{
+   font-size: 20px;
+   font-family:'PT Serif';
+  padding-left: 30px;
 
-    .font1{
-        font-family:'PT Serif';
-        font-size: 15px;
-        position:absolute;
-        height: 100px;
-        left: 700px ;
-     }
-      
-     .font2{
-        font-family:'Fira Sans';
-        font-size: 23px;
-      }
-      
-     .font3{
-        font-family:'PT Serif';
-        font-size: 17px;
-     }
+}
 
-     .education1{
-        padding-top: 70px;
-        display: flex;
-        flex-direction: column;
-     }
-      
-     .education2{
-        padding-top: 70px;
-        display: flex;
-        flex-direction: column;
-     }
-      
-     .education3{
-         padding-top: 70px;
-         display: flex;
-         flex-direction: column;
-     }
-     
-     .experience{
-        padding-top: 70px;
-        display: flex;
-        flex-direction: column;
-     }
+.page2{
+   display:flex;
+   flex-direction: row;
+}
 
-     .year{
-        padding-left: -50px;
-        padding-top: 60px;
-     }
+.educationInformation{
+   padding-top: 30px;
+   padding-bottom: 240px;
+}
 
-     .info{
-        position:absolute;
-        left: 1000px;
-        padding-top: 55px;
-     }
-     
-    .header-for-education{
-       padding-top: 120px;
-       padding-left: 100px;
-       font-size: 80px;
-       max-width: 30%;
-       font-family: 'Economica';
-    }
+.font1{
+   font-family:'PT Serif';
+   font-size: 15px;
+   position:absolute;
+   height: 100px;
+   left: 700px ;
+}
 
-    .specific-information{
-        display: flex;
-        flex-direction: row;
-    }
+.font2{
+   font-family:'Fira Sans';
+   font-size: 23px;
+ }
 
-    .page3{
-      background-color:#EDEBD7;
-      padding-top: 40px;
-      padding-bottom: 190px;
-    }
-     
-    .header-for-hobby{
-       padding-top: 70px;
-       padding-left: 30px;
-       font-size: 80px;
-       font-family: 'Economica';
-    }
+.font3{
+   font-family:'PT Serif';
+   font-size: 17px;
+}
 
-    .volunteering{
-       grid-area: a;
-       width: 600px;
-       height: 500px;
-       background-color:#DB504A;
-       text-align:center;
-    }
-     
-    .friends{
-      grid-area: b;
-      width: 600px;
-       height: 500px;
-       background-color:#DB504A;
-       text-align:center;
-    }
+.education1{
+   padding-top: 70px;
+   display: flex;
+   flex-direction: column;
+}
 
-    .travel{
-      grid-area: c;
-      width: 600px;
-       height: 500px;
-       background-color:#DB504A;
-       text-align:center;
-    }
+.education2{
+   padding-top: 70px;
+   display: flex;
+   flex-direction: column;
+}
 
-    .dog {
-      grid-area: d;
-      width: 600px;
-       height: 500px;
-       background-color:#DB504A;
-       text-align:center;
-    }
+.education3{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
 
-    .hobby{
-      padding-top: 100px;
-      padding-left: 73px;
-      gap: 50px;
-      display: grid;
-      grid-template: 
-      "a b"
-      "c d"
-      ;
-    }
+.experience{
+   padding-top: 70px;
+   display: flex;
+   flex-direction: column;
+}
 
+.year{
+   padding-left: -50px;
+   padding-top: 60px;
+}
 
-    .page4{
-      background-color:#242F40 ;
-      padding-bottom: 300px;
-    }
+.info{
+   position:absolute;
+   left: 1000px;
+   padding-top: 55px;
+}
+
+.header-for-education{
+  padding-top: 120px;
+  padding-left: 100px;
+  font-size: 80px;
+  max-width: 30%;
+  font-family: 'Economica';
+}
+
+.specific-information{
+   display: flex;
+   flex-direction: row;
+}
+
+.page3{
+ background-color:#EDEBD7;
+ padding-top: 40px;
+ padding-bottom: 190px;
+}
+
+.header-for-hobby{
+  padding-top: 70px;
+  padding-left: 30px;
+  font-size: 80px;
+  font-family: 'Economica';
+}
+
+.volunteering{
+   grid-area: a;
+   width: 600px;
+   height: 1000px;
+   background-color:#DB504A;
+   text-align:center;
+}
+
+.friends{
+  grid-area: b;
+  width: 600px;
+   height: 1000px;
+   background-color:#DB504A;
+   text-align:center;
+}
+
+.travel{
+  grid-area: c;
+  width: 600px;
+   height: 1000px;
+   background-color:#DB504A;
+   text-align:center;
+}
+
+.dog {
+  grid-area: d;
+  width: 600px;
+   height: 1000px;
+   background-color:#DB504A;
+   text-align:center;
+}
+
+.hobby{
+  padding-top: 100px;
+  padding-left: 73px;
+  gap: 50px;
+  display: grid;
+  grid-template:
+  "a b"
+  "c d"
+  ;
+}
 
 
-    .header-for-info{
-      color:#EDEBD7 ;
-      padding-top: 70px;
-       padding-left: 50px;
-       font-size: 80px;
-       font-family: 'Economica';
-    }
-    
-
-    .project{
-      display: flex;
-      flex-direction: row;
-      padding-top: 120px;
-      text-align:center;
-      gap: 30px;
-      padding-left: 85px;
-    }
-    
-    .project-img{
-      width: 400px;
-      height: 400px;
-      border-radius: 100px 100px 0px 0px; 
-    }
+.page4{
+  background-color:#242F40 ;
+  padding-bottom: 300px;
+}
 
 
-    .font4{
-      font-family:'PT Serif';
-      font-size: 30px;
-      padding-top: 5px;
-    }
+.header-for-info{
+  color:#EDEBD7 ;
+  padding-top: 70px;
+   padding-left: 50px;
+   font-size: 80px;
+   font-family: 'Economica';
+}
 
-    .font5{
-      color: #EDEBD7;
-      font-family:'PT Serif';
-      font-size: 30px;
-    }
-    
-     
-   
-     
-    
-    
-   
-    
-    
+
+.project{
+  display: flex;
+  flex-direction: row;
+  padding-top: 120px;
+  text-align:center;
+  gap: 30px;
+  padding-left: 85px;
+}
+
+.project-img{
+  width: 400px;
+  height: 400px;
+  border-radius: 100px 100px 0px 0px;
+}
+
+
+.font4{
+  font-family:'PT Serif';
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+.font5{
+  color: #EDEBD7;
+  font-family:'PT Serif';
+  font-size: 30px;
+}
