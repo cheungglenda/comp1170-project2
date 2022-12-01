@@ -313,6 +313,7 @@ a:hover {
 .homeWindowFrame {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
   width: 900px;
@@ -331,11 +332,19 @@ a:hover {
 >>>>>>> d06504b (not me forgetting the s for docs)
 =======
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+  width: 900px;
+  height: 600px;
+  margin: auto;
+  border: 3px solid #E3B23C;
+  background-color:#e4e0d9;
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
 
 .homeNavFrame {
   display:flex;
   background-color:#E3B23C;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   width: 900px;
@@ -345,6 +354,9 @@ a:hover {
 =======
   width: 900px;
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+  width: 900px;
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
   height: 40px;
 }
 
@@ -367,6 +379,7 @@ a:hover {
   justify-content:center;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top:15%;
 =======
   margin-top:25%;
@@ -374,10 +387,14 @@ a:hover {
 =======
   margin-top:15%;
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+  margin-top:15%;
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
 
 .fenixGrid {
   background-color:#5BCCD9;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
    opacity: 0.8;
@@ -386,6 +403,9 @@ a:hover {
 =======
    opacity: 0.8;
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+   opacity: 0.8;
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
 
 .fenixGridLink {
@@ -401,12 +421,16 @@ a:hover {
   background-color:#242F40;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
 =======
   opacity: 0.8;
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+  opacity: 0.8;
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
 
 .glendaGridLink {
@@ -422,14 +446,18 @@ a:hover {
   background-color:#EDEBD7;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
   opacity: 0.8;
 }
 .sanly{
   width: 100%;
   height: 79%;
 
+<<<<<<< HEAD
 }
 
 .sanlyGridLink {
@@ -441,30 +469,40 @@ a:hover {
 
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
 
 .sanlyGridLink {
-  width:150px;
-  height:70px;
+  width:100%;
+  height:20%;
   background-color:#314056;
   font-size:22px;
   text-align:center;
+<<<<<<< HEAD
   margin-top:270px;
 >>>>>>> d06504b (not me forgetting the s for docs)
 =======
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
 
 .justinGrid {
   background-color:#E3B23C;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
 =======
   opacity: 0.8;
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+  opacity: 0.8;
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
 
 .justinGridLink {
@@ -480,12 +518,16 @@ a:hover {
   background-color:#DB504A;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
 =======
   opacity: 0.8;
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
+=======
+  opacity: 0.8;
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
 
 .takamiGridLink {
@@ -498,6 +540,7 @@ a:hover {
 }
 
 .about{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -525,7 +568,15 @@ h2{
 h1 {
     font-size: 60px;
 <<<<<<< HEAD
+=======
+   display: grid;
+   justify-content: center;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+   width: 100%;
+>>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
 }
+
 h2{
     font-size: 36px;
     
