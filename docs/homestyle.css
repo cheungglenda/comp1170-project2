@@ -1,38 +1,110 @@
 /*Background*/
+
+body , html {
+  height:100%;
+  margin:0px;
+}
+
 .background {
 width: 100%;
 height: 100vh;
+top: 0px; 
 }
 
 .navbar {
-  width: 90%;
+  width: 100%;
   margin: auto;
+  height: 70px;
+  font-size:18px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-between;
-  background-color: #242f40
+  background-color: white;
+  border-bottom: 2px solid #5BCCD9;
 }
 
-/* Top nav buttons */
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 20px;
-    position: relative;
-  }
-  
-  .navbar ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-family:Arial, Helvetica, sans-serif
-  }
+.navbarHeader {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:700;
+  font-size:22px;
+  margin-left:3%;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  text-decoration:none;
+}
+
+.fenixHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.fenixHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.glendaHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.glendaHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.sanlyHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.sanlyHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.justinHeaderLink{
+  font-size: 20px;
+  color: #000000;
+}
+
+.justinHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.takamiHeaderLink{
+  font-size: 20px;
+  color: #000000;
+}
+
+.takamiHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
 
 /*HOME*/
 
 a {
   text-decoration:none;
   font-family:Arial, Helvetica, sans-serif;
-  color:#fff;
+}
+
+a:visited{
+  color:#000;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#5BCCD9;
+  text-decoration:none;
 }
 
 .homeWindowFrame {
@@ -79,7 +151,7 @@ a {
   width:150px;
   height:70px;
   background-color:#314056;
-  font-size:24px;
+  font-size:22px;
   text-align:center;
   margin-top:270px;
 }
@@ -92,7 +164,7 @@ a {
   width:150px;
   height:70px;
   background-color:#314056;
-  font-size:24px;
+  font-size:22px;
   text-align:center;
   margin-top:270px;
 }
@@ -105,7 +177,7 @@ a {
   width:150px;
   height:70px;
   background-color:#314056;
-  font-size:24px;
+  font-size:22px;
   text-align:center;
   margin-top:270px;
 }
@@ -118,7 +190,7 @@ a {
   width:150px;
   height:70px;
   background-color:#314056;
-  font-size:24px;
+  font-size:22px;
   text-align:center;
   margin-top:270px;
 }
@@ -131,7 +203,7 @@ a {
   width:150px;
   height:70px;
   background-color:#314056;
-  font-size:24px;
+  font-size:22px;
   text-align:center;
   margin-top:270px;
 }
@@ -141,7 +213,7 @@ a {
    justify-content: center;
    text-align: center;
    font-family:Arial, Helvetica, sans-serif;
-width: 100%;
+  width: 100%;
      gap: 20px;
 }
 h1 {
