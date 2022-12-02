@@ -17,6 +17,7 @@ body , html {
 a {
   text-decoration:none;
   font-family:Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
 }
 
 .navbar {
@@ -86,63 +87,143 @@ a {
   border-bottom: 1px solid #5BCCD9;
   color:#5BCCD9;
   text-decoration:none;
+=======
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  height: 70px;
+  font-size:18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid #5BCCD9;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/**header links*/ 
+.fenixHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.fenixHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.glendaHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.glendaHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.sanlyHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.sanlyHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.justinHeaderLink{
+  font-size: 20px;
+  color: #000000;
+}
+
+.justinHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.takamiHeaderLink{
+  font-size: 20px;
+  color: #000000;
+}
+
+.takamiHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+/**header links end**/
 
 .glendaLeftColumnTop {
     position: absolute;
     top: 17%;
-    left: 0;
-    width:50%;
+    width:500px;
+    margin-left:8%;
 }
 
-.glendaIntroPic {
-    position:absolute;
-    height:52%;
-    width:65%;
-    object-fit:cover;
-    margin-left:13%;
-    margin-top:5%;
-  }
 
-  .glendaIntroPicBackground {
-    position:relative;
-    height:458px;
-    width:485px;
-    background-color:#E3B23C;
-    z-index:-1;
-    margin-left: 10%;
-    margin-top:2%;
+.glendaIntroPic {
+    display:flex;
+    height:480px;
+    width:480px;
+    object-fit:cover;
+    margin-top:5%;
+    box-shadow: -20px -20px #E3B23C;
   }
 
   .glendaSocials {
-    margin-top:5%;
-    margin-left:10%;
+    margin-top: 2%;
     display:grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 30px;
-    max-width:500px;
-    justify-content:space-evenly;
+    width:100%;
+    grid-template:
+    "a b c" 30px
+    ;
+  }
+
+  .glendaIG {
+    grid-area:a;
+  }
+
+  .glendaIG:hover, .glendaLI:hover, .glendaEmail:hover {
+    background-color:#5BCCD9;
+    transition-duration: 0.5s;
+  }
+
+  .glendaLI {
+    grid-area:b;
+  }
+
+  .glendaEmail {
+    grid-area:c;
   }
 
   .glendaIG, .glendaLI, .glendaEmail {
-    background-color:#5BCCD9;
+    background-color:#ffffff;
+    border: 2px solid #5BCCD9;
     font-family:Arial, Helvetica, sans-serif;
     width:100px;
     height:30px;
-    border-radius:30px;
     display:flex;
-    justify-content:center;
+    box-shadow: 0px 4px 4px #242F40;
+    justify-content:space-evenly;
     align-items:center;
   }
 
 .glendaEducation {
     border-left: 8px solid #D38324;
-    height:290px;
+    height:270px;
     width:500px;
-    margin-left:10%;
-    margin-top:3%;
-    padding-top:3%;
-    justify-content:center;
+    margin-top:5%;
+    padding-top:5px;
+    justify-content:space-evenly;
     align-items:center;
 }
 
@@ -159,14 +240,14 @@ a {
 
 .glendaText1 {
     font-family:Arial, Helvetica, sans-serif;
-    font-size:30px;
+    font-size:25px;
     font-weight:100;
     padding-left:5%;
 }
 
 .glendaText2 {
     font-family:Arial, Helvetica, sans-serif;
-    font-size:23px;
+    font-size:20px;
     padding-left:5%;
     font-weight:300;
 }
@@ -179,34 +260,37 @@ a {
 }
 
 .glendaRightColumnTop {
-    width: 50%;
-    top:17%;
+    width: 52%;
+    top:15%;
     right: 0px;
     position: absolute;
 }
 
 .glendaHeaderText {
     font-family:Arial, Helvetica, sans-serif;
-    font-size:50px;
-    font-weight:100;
+    font-size:40px;
+    margin-top:1%;
+    font-weight:600;
 }
 
 .glendaHeaderDesc {
   font-family:Arial, Helvetica, sans-serif;
-  font-size:25px;
+  font-size:20px;
   font-weight:100;
+  margin-bottom:4%;
   line-height:0;
 }
 
 .glendaFadeImage1 {
   position:absolute;
-  animation: fadeInAnimation ease 1.5s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   width:350px;
   height:350px;
   margin-top:1%;
   object-fit:cover;
+  box-shadow: 0px 4px 4px #242F40;
 }
 
 .glendaFadeImage2 {
@@ -214,18 +298,19 @@ a {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  width:350px;
-  height:350px;
+  width:370px;
+  height:370px;
   justify-content:right;
-  margin-left:40%;
+  margin-left:42%;
   margin-top:25%;
   object-fit:cover;
   z-index:2;
+  box-shadow: 0px 4px 4px #242F40;
 }
 
 .glendaFadeImage3 {
   position:absolute;
-  animation: fadeInAnimation ease 5s;
+  animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   width:350px;
@@ -234,6 +319,7 @@ a {
   margin-top:50%;
   object-fit:cover;
   z-index:2;
+  box-shadow: 0px 4px 4px #242F40;
 }
 
 
@@ -246,43 +332,107 @@ a {
    }
 }
 
-.glendaSecondBodyContPic {
-  position:absolute;
-  height:458px;
-  width:87%;
-  object-fit:cover;
-  margin-left:6%;
-  margin-top:2%;
+.glendaSecondBodyContainer {
+  grid-template:
+  "a a b" 450px 
+  "c d e" 450px
+  ;
+  display: grid;
+  max-width: 350px;
+  max-height: 500px;
+  width:100%;
+  margin-top:65%;
+  margin-left:8%;
+  grid-column-gap:9%;
 }
 
-.glendaSecondBodyContBackground {
-  position:relative;
-  height:458px;
-  width:85%;
-  background-color:#242F40;
-  z-index:-1;
-  margin-left:4%;
-  margin-top:63%;
-}
-
-.glendaTextBox {
-  width:500px;
-  height:500px;
+.glendaGrid1 {
+  grid-area: a; 
+  width: 852px;
+  height: 350px;
   background-color:#DB504A;
-  position: absolute;
-  margin-top:5%;
-  margin-left:4%;
-}
-
-.glendaBoxDesc {
   font-family:Arial, Helvetica, sans-serif;
-  color:#ffffff;
-  font-weight:100;
-  font-size:25px;
-  position:relative;
-  top:18%;
+  text-align:center;
   justify-content:center;
   align-items:center;
+  box-shadow: -20px -20px #242F40;
+}
+
+.glendaGrid2 {
+  grid-area: b;
+  font-family:Arial, Helvetica, sans-serif;
+  border-left: 8px solid #D38324;
+  height:350px;
+  width:450px;
+  justify-content:space-evenly;
+  align-items:center;
+}
+
+.glendaGrid3 {
+  grid-area: c; 
+}
+
+.glendaGrid4 {
+  grid-area: d;
+}
+
+.glendaGrid5 {
+  grid-area: e; 
+
+}
+
+.glendaGrid3 img, .glendaGrid4 img, .glendaGrid5 img {
+  width:410px;
+  height:410px;
+  object-fit:cover;
+  box-shadow: -17px -17px #E3B23C;
+}
+
+.glendaSecondGrid {
+  grid-template:
+  "a b c d" 450px 
+  ;
+  display: grid;
+  max-width: 200px;
+  max-height: 500px;
+  width:86%;
   text-align:center;
-  margin:8%;
+  justify-content:center;
+  align-items:center;
+  grid-column-gap:2%;
+}
+
+.glendaLastBodyContainer {
+  width:87%;
+  height:500px;
+  background-color:#242F40;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  margin-top:30%;
+  margin-left:7%;
+  outline-offset: -20px;
+  outline: 4px solid #5BCCD9;
+}
+
+.glendaGrid6 {
+  grid-area: a; 
+}
+
+.glendaGrid7 {
+  grid-area: b;
+}
+
+.glendaGrid8 {
+  grid-area: c; 
+}
+
+.glendaGrid9 {
+  grid-area: d;
+}
+
+.glendaGrid6 img, .glendaGrid7 img, .glendaGrid8 img, .glendaGrid9 img {
+  width:200x;
+  height:400px;
+  object-fit:cover;
 }

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 body , html {
   height: 100%;
   margin: 0px;
@@ -6,16 +9,45 @@ body , html {
 
 
 /*Background*/
+<<<<<<< HEAD
 .background {
+=======
+
+body , html {
+  height:100%;
+  margin:0px;
+}
+
+.background {
+<<<<<<<< HEAD:doc/homestyle.css
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 width: 80%;
 margin: auto;
 }
 
 .navbar {
   width: 80%;
+<<<<<<< HEAD
   margin: auto;
   display: flex;
   flex-direction: row;
+=======
+========
+width: 100%;
+height: 100vh;
+top: 0px; 
+}
+
+.navbar {
+  width: 100%;
+>>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324:docs/homestyle.css
+  margin: auto;
+  height: 70px;
+  font-size:18px;
+  display: flex;
+  flex-direction: row;
+<<<<<<<< HEAD:doc/homestyle.css
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
   align-items: center;
   justify-content: space-evenly;
   background-color:white;
@@ -23,6 +55,17 @@ margin: auto;
 }
 
 /* Top nav buttons */
+<<<<<<< HEAD
+=======
+========
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-bottom: 2px solid #5BCCD9;
+}
+
+>>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324:docs/homestyle.css
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 .navbarHeader {
   font-family:Arial, Helvetica, sans-serif;
   font-weight:700;
@@ -33,6 +76,67 @@ margin: auto;
   display:flex;
   text-decoration:none;
 }
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:doc/homestyle.css
+========
+
+.fenixHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.fenixHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.glendaHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.glendaHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.sanlyHeaderLink {
+  font-size: 20px;
+  color: #000000;
+}
+
+.sanlyHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.justinHeaderLink{
+  font-size: 20px;
+  color: #000000;
+}
+
+.justinHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+
+.takamiHeaderLink{
+  font-size: 20px;
+  color: #000000;
+}
+
+.takamiHeaderLink:hover{
+  border-bottom: 1px solid #5BCCD9;
+  color:#5BCCD9;
+  text-decoration:none;
+}
+>>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324:docs/homestyle.css
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 
 .navbarH{
   color: #242F40;
@@ -92,6 +196,7 @@ margin: auto;
   color:#5BCCD9;
   text-decoration:none;
 }
+<<<<<<< HEAD
 =======
 /*Background*/
 
@@ -186,6 +291,8 @@ top: 0px;
 }
 
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 /*HOME*/
 
 a {
@@ -205,11 +312,15 @@ a:hover {
 
 .homeWindowFrame {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
   width: 900px;
   height: 600px;
   margin: auto;
   border: 3px solid #E3B23C;
   background-color:#e4e0d9;
+<<<<<<< HEAD
 =======
   position:absolute;
   width: 1060px;
@@ -218,16 +329,22 @@ a:hover {
   margin-right:15%;
   border: 3px solid #E3B23C;
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
 
 .homeNavFrame {
   display:flex;
   background-color:#E3B23C;
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 900px;
 =======
   width: 1060px;
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+  width: 900px;
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
   height: 40px;
 }
 
@@ -249,18 +366,26 @@ a:hover {
   width:100%;
   justify-content:center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top:15%;
 =======
   margin-top:25%;
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+  margin-top:15%;
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
 
 .fenixGrid {
   background-color:#5BCCD9;
 <<<<<<< HEAD
+<<<<<<< HEAD
    opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+   opacity: 0.8;
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
 
 .fenixGridLink {
@@ -275,9 +400,13 @@ a:hover {
 .glendaGrid {
   background-color:#242F40;
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+  opacity: 0.8;
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
 
 .glendaGridLink {
@@ -292,6 +421,9 @@ a:hover {
 .sanlyGrid {
   background-color:#EDEBD7;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
   opacity: 0.8;
 }
 .sanly{
@@ -307,6 +439,7 @@ a:hover {
   font-size:22px;
   text-align:center;
 
+<<<<<<< HEAD
 =======
 }
 
@@ -318,14 +451,20 @@ a:hover {
   text-align:center;
   margin-top:270px;
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
 
 .justinGrid {
   background-color:#E3B23C;
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+  opacity: 0.8;
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
 
 .justinGridLink {
@@ -340,9 +479,13 @@ a:hover {
 .takamiGrid {
   background-color:#DB504A;
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+  opacity: 0.8;
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
 
 .takamiGridLink {
@@ -356,10 +499,14 @@ a:hover {
 
 .about{
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
    display: grid;
    justify-content: center;
    text-align: center;
    font-family:Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
 }
 h2{
     font-size: 32px;
@@ -368,15 +515,26 @@ h2{
    justify-content: center;
    text-align: center;
    font-family:Arial, Helvetica, sans-serif;
+=======
+<<<<<<<< HEAD:doc/homestyle.css
+========
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
   width: 100%;
      gap: 20px;
 }
 h1 {
     font-size: 60px;
+<<<<<<< HEAD
 }
 h2{
     font-size: 36px;
     
 >>>>>>> d06504b (not me forgetting the s for docs)
+=======
+>>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324:docs/homestyle.css
+}
+h2{
+    font-size: 32px;
+>>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 }
 
