@@ -211,7 +211,7 @@ a {
 
 .glendaFadeImage1 {
   position:absolute;
-  animation: fadeInAnimation ease 1.5s;
+  animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   width:350px;
@@ -238,7 +238,7 @@ a {
 
 .glendaFadeImage3 {
   position:absolute;
-  animation: fadeInAnimation ease 5s;
+  animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   width:350px;
@@ -260,11 +260,10 @@ a {
    }
 }
 
-
 .glendaSecondBodyContainer {
   grid-template:
-  "a a a" 450px 
-  "b c d" 450px
+  "a a b" 450px 
+  "c d e" 450px
   ;
   display: grid;
   max-width: 350px;
@@ -272,41 +271,96 @@ a {
   width:100%;
   margin-top:65%;
   margin-left:8%;
-  grid-row-gap:9%;
   grid-column-gap:9%;
 }
 
 .glendaGrid1 {
   grid-area: a; 
-}
-
-.glendaGrid2 {
-  grid-area: b; 
-}
-
-.glendaGrid3 {
-  grid-area: c;
-}
-
-.glendaGrid4 {
-  grid-area: d; 
-
-}
-
-.glendaGrid1 {
-  width: 1300px;
-  height: 450px;
+  width: 852px;
+  height: 350px;
   background-color:#DB504A;
   font-family:Arial, Helvetica, sans-serif;
   text-align:center;
   justify-content:center;
   align-items:center;
   box-shadow: -20px -20px #242F40;
-} 
+}
 
-.glendaGrid2 img, .glendaGrid3 img, .glendaGrid4 img {
+.glendaGrid2 {
+  grid-area: b;
+  font-family:Arial, Helvetica, sans-serif;
+  border-left: 8px solid #D38324;
+  height:350px;
+  width:450px;
+  justify-content:space-evenly;
+  align-items:center;
+}
+
+.glendaGrid3 {
+  grid-area: c; 
+}
+
+.glendaGrid4 {
+  grid-area: d;
+}
+
+.glendaGrid5 {
+  grid-area: e; 
+
+}
+
+.glendaGrid3 img, .glendaGrid4 img, .glendaGrid5 img {
   width:410px;
   height:410px;
   object-fit:cover;
   box-shadow: -17px -17px #E3B23C;
+}
+
+.glendaSecondGrid {
+  grid-template:
+  "a b c d" 450px 
+  ;
+  display: grid;
+  max-width: 200px;
+  max-height: 500px;
+  width:86%;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+  grid-column-gap:2%;
+}
+
+.glendaLastBodyContainer {
+  width:87%;
+  height:500px;
+  background-color:#242F40;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  margin-top:30%;
+  margin-left:7%;
+  outline-offset: -20px;
+  outline: 4px solid #5BCCD9;
+}
+
+.glendaGrid6 {
+  grid-area: a; 
+}
+
+.glendaGrid7 {
+  grid-area: b;
+}
+
+.glendaGrid8 {
+  grid-area: c; 
+}
+
+.glendaGrid9 {
+  grid-area: d;
+}
+
+.glendaGrid6 img, .glendaGrid7 img, .glendaGrid8 img, .glendaGrid9 img {
+  width:200x;
+  height:400px;
+  object-fit:cover;
 }
