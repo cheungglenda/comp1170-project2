@@ -23,8 +23,13 @@ html {
 /*top section*/
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
-
+.audio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .column {
   float: left;
   width: 50%;
@@ -145,7 +150,7 @@ gap: 150px;
   object-fit: cover;
 
 }
-.wallen {
+.landscape {
   width: 100%;
 }
 
