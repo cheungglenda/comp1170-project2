@@ -33,6 +33,7 @@ a {
   font-family:Arial, Helvetica, sans-serif;
 }
 
+/**header links*/ 
 .fenixHeaderLink {
   font-size: 20px;
   color: #000000;
@@ -87,62 +88,70 @@ a {
   color:#5BCCD9;
   text-decoration:none;
 }
+/**header links end**/
 
 .glendaLeftColumnTop {
     position: absolute;
     top: 17%;
-    left: 0;
-    width:50%;
+    width:500px;
+    margin-left:8%;
 }
 
-.glendaIntroPic {
-    position:absolute;
-    height:52%;
-    width:65%;
-    object-fit:cover;
-    margin-left:13%;
-    margin-top:5%;
-  }
 
-  .glendaIntroPicBackground {
-    position:relative;
-    height:458px;
-    width:485px;
-    background-color:#E3B23C;
-    z-index:-1;
-    margin-left: 10%;
-    margin-top:2%;
+.glendaIntroPic {
+    display:flex;
+    height:480px;
+    width:480px;
+    object-fit:cover;
+    margin-top:5%;
+    box-shadow: -20px -20px #E3B23C;
   }
 
   .glendaSocials {
-    margin-top:5%;
-    margin-left:10%;
+    margin-top: 2%;
     display:grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 30px;
-    max-width:500px;
-    justify-content:space-evenly;
+    width:100%;
+    grid-template:
+    "a b c" 30px
+    ;
+  }
+
+  .glendaIG {
+    grid-area:a;
+  }
+
+  .glendaIG:hover, .glendaLI:hover, .glendaEmail:hover {
+    background-color:#5BCCD9;
+    transition-duration: 0.5s;
+  }
+
+  .glendaLI {
+    grid-area:b;
+  }
+
+  .glendaEmail {
+    grid-area:c;
   }
 
   .glendaIG, .glendaLI, .glendaEmail {
-    background-color:#5BCCD9;
+    background-color:#ffffff;
+    border: 2px solid #5BCCD9;
     font-family:Arial, Helvetica, sans-serif;
     width:100px;
     height:30px;
-    border-radius:30px;
     display:flex;
-    justify-content:center;
+    box-shadow: 0px 4px 4px #242F40;
+    justify-content:space-evenly;
     align-items:center;
   }
 
 .glendaEducation {
     border-left: 8px solid #D38324;
-    height:290px;
+    height:270px;
     width:500px;
-    margin-left:10%;
-    margin-top:3%;
-    padding-top:3%;
-    justify-content:center;
+    margin-top:5%;
+    padding-top:5px;
+    justify-content:space-evenly;
     align-items:center;
 }
 
@@ -159,14 +168,14 @@ a {
 
 .glendaText1 {
     font-family:Arial, Helvetica, sans-serif;
-    font-size:30px;
+    font-size:25px;
     font-weight:100;
     padding-left:5%;
 }
 
 .glendaText2 {
     font-family:Arial, Helvetica, sans-serif;
-    font-size:23px;
+    font-size:20px;
     padding-left:5%;
     font-weight:300;
 }
@@ -179,22 +188,24 @@ a {
 }
 
 .glendaRightColumnTop {
-    width: 50%;
-    top:17%;
+    width: 52%;
+    top:15%;
     right: 0px;
     position: absolute;
 }
 
 .glendaHeaderText {
     font-family:Arial, Helvetica, sans-serif;
-    font-size:50px;
-    font-weight:100;
+    font-size:40px;
+    margin-top:1%;
+    font-weight:600;
 }
 
 .glendaHeaderDesc {
   font-family:Arial, Helvetica, sans-serif;
-  font-size:25px;
+  font-size:20px;
   font-weight:100;
+  margin-bottom:4%;
   line-height:0;
 }
 
@@ -207,6 +218,7 @@ a {
   height:350px;
   margin-top:1%;
   object-fit:cover;
+  box-shadow: 0px 4px 4px #242F40;
 }
 
 .glendaFadeImage2 {
@@ -214,13 +226,14 @@ a {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  width:350px;
-  height:350px;
+  width:370px;
+  height:370px;
   justify-content:right;
-  margin-left:40%;
+  margin-left:42%;
   margin-top:25%;
   object-fit:cover;
   z-index:2;
+  box-shadow: 0px 4px 4px #242F40;
 }
 
 .glendaFadeImage3 {
@@ -234,6 +247,7 @@ a {
   margin-top:50%;
   object-fit:cover;
   z-index:2;
+  box-shadow: 0px 4px 4px #242F40;
 }
 
 
@@ -246,43 +260,53 @@ a {
    }
 }
 
-.glendaSecondBodyContPic {
-  position:absolute;
-  height:458px;
-  width:87%;
-  object-fit:cover;
-  margin-left:6%;
-  margin-top:2%;
+
+.glendaSecondBodyContainer {
+  grid-template:
+  "a a a" 450px 
+  "b c d" 450px
+  ;
+  display: grid;
+  max-width: 350px;
+  max-height: 500px;
+  width:100%;
+  margin-top:65%;
+  margin-left:8%;
+  grid-row-gap:9%;
+  grid-column-gap:9%;
 }
 
-.glendaSecondBodyContBackground {
-  position:relative;
-  height:458px;
-  width:85%;
-  background-color:#242F40;
-  z-index:-1;
-  margin-left:4%;
-  margin-top:63%;
+.glendaGrid1 {
+  grid-area: a; 
 }
 
-.glendaTextBox {
-  width:500px;
-  height:500px;
+.glendaGrid2 {
+  grid-area: b; 
+}
+
+.glendaGrid3 {
+  grid-area: c;
+}
+
+.glendaGrid4 {
+  grid-area: d; 
+
+}
+
+.glendaGrid1 {
+  width: 1300px;
+  height: 450px;
   background-color:#DB504A;
-  position: absolute;
-  margin-top:5%;
-  margin-left:4%;
-}
-
-.glendaBoxDesc {
   font-family:Arial, Helvetica, sans-serif;
-  color:#ffffff;
-  font-weight:100;
-  font-size:25px;
-  position:relative;
-  top:18%;
+  text-align:center;
   justify-content:center;
   align-items:center;
-  text-align:center;
-  margin:8%;
+  box-shadow: -20px -20px #242F40;
+} 
+
+.glendaGrid2 img, .glendaGrid3 img, .glendaGrid4 img {
+  width:410px;
+  height:410px;
+  object-fit:cover;
+  box-shadow: -17px -17px #E3B23C;
 }
