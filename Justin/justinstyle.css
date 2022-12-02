@@ -1,7 +1,7 @@
 body,
 html {
- width: 100%;
-  height: 500vh;
+ max-width: 100%;
+  height: 700vh;
 }
 
 .background {
@@ -28,7 +28,6 @@ html {
 .column {
   float: left;
   width: 50%;
-  padding: 10px;
   height: 100vh;
   text-align: center;
   align-items: center;
@@ -79,6 +78,7 @@ padding-top: 50px;
 .crosssection {
   width: 100%;
   padding: 100px;
+  margin-top: -4px;
   background-color: #242f40;
   text-align: center;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
@@ -92,10 +92,10 @@ height: 100vh;
 width: 100%;
 align-items: center;
 justify-content: center;
-padding-top: 100px;
+padding-top: 50px;
 gap: 150px;
 }
-.instagram, .discord, .spotify {
+.instagram, .discord, .spotify, .top, .middle, .bottom {
   display: flex;
 flex-direction: column;
 }
@@ -103,9 +103,51 @@ flex-direction: column;
 .bottommiddle {
   display: flex;
   flex-direction: column; 
- 
+  height: 50vh;
 }
 
+.left2, .right2 {
+ margin-top: -4px;
+} 
+.main {
+  display: flex;
+flex-wrap: wrap;
+height: 100vh;
+width: 100%;
+align-items: center;
+justify-content: center;
+padding-top: 50px;
+gap: 150px;
+}
+
+.middle2section {
+ 
+  height: 133vh;
+  align-items: center;
+  justify-content: center;
+}
+.middle2section::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.friends, .china, .sk8, .coffee {
+  object-fit: cover;
+  min-width: 712px;
+  max-height: 500px;
+}
+
+.photo {
+  width: 472px;
+  height: 470px;
+  object-fit: cover;
+
+}
+.wallen {
+  width: 100%;
+}
 
 
 /*text*/
@@ -147,6 +189,8 @@ p {
  font-family: Arial, Helvetica, sans-serif;
 
 }
+
+
 /*links*/
 /* unvisited link */
 a {
@@ -202,6 +246,17 @@ width: 150px;
   .column {
     width: 100%;
   }
-  
-  
+  .right1{
+    padding-top: 251px;
+  }
+  .crosssection {
+    width: 100%;
+    padding: 100px;
+    margin-top: -4px;
+  }
+
+ .middle2section {
+ 
+  height: 274vh;
+}
 }
