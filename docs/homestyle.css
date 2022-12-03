@@ -314,6 +314,7 @@ a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
   width: 900px;
@@ -339,11 +340,20 @@ a:hover {
   border: 3px solid #E3B23C;
   background-color:#e4e0d9;
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+  position:absolute;
+  width: 1060px;
+  height: 800px;
+  margin-left:15%;
+  margin-right:15%;
+  border: 3px solid #E3B23C;
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 
 .homeNavFrame {
   display:flex;
   background-color:#E3B23C;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -357,6 +367,9 @@ a:hover {
 =======
   width: 900px;
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+  width: 1060px;
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
   height: 40px;
 }
 
@@ -380,6 +393,7 @@ a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top:15%;
 =======
   margin-top:25%;
@@ -390,10 +404,14 @@ a:hover {
 =======
   margin-top:15%;
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+  margin-top:25%;
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 
 .fenixGrid {
   background-color:#5BCCD9;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +424,8 @@ a:hover {
 =======
    opacity: 0.8;
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 
 .fenixGridLink {
@@ -422,6 +442,7 @@ a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
@@ -431,6 +452,8 @@ a:hover {
 =======
   opacity: 0.8;
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 
 .glendaGridLink {
@@ -447,6 +470,7 @@ a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 2584be3d6fd55019e5b5cc32df993c31c08a9324
 =======
@@ -458,14 +482,17 @@ a:hover {
   height: 79%;
 
 <<<<<<< HEAD
+=======
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 
 .sanlyGridLink {
-  width:100%;
-  height:20%;
+  width:150px;
+  height:70px;
   background-color:#314056;
   font-size:22px;
   text-align:center;
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -487,10 +514,14 @@ a:hover {
 =======
 
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+  margin-top:270px;
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 
 .justinGrid {
   background-color:#E3B23C;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503,6 +534,8 @@ a:hover {
 =======
   opacity: 0.8;
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 
 .justinGridLink {
@@ -519,6 +552,7 @@ a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   opacity: 0.8;
 =======
 >>>>>>> d06504b (not me forgetting the s for docs)
@@ -528,6 +562,8 @@ a:hover {
 =======
   opacity: 0.8;
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 
 .takamiGridLink {
@@ -540,6 +576,7 @@ a:hover {
 }
 
 .about{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -575,6 +612,17 @@ h1 {
    font-family:Arial, Helvetica, sans-serif;
    width: 100%;
 >>>>>>> bc9dcce (glenda went in sanly's branch to rebase/merge her changes to main)
+=======
+    display: grid;
+   justify-content: center;
+   text-align: center;
+   font-family:Arial, Helvetica, sans-serif;
+  width: 100%;
+     gap: 20px;
+}
+h1 {
+    font-size: 60px;
+>>>>>>> 0045d34 (reverted last few commits up until Dec 1)
 }
 h2{
     font-size: 36px;
