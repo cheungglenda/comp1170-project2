@@ -20,6 +20,7 @@ body , html {
    padding-bottom: 100px;
 }
 
+
 a {
    text-decoration:none;
 }
@@ -132,7 +133,15 @@ a:hover {
    font-size: 20px;
    font-family:'PT Serif';
   padding-left: 30px;
+ text-align: center;
 
+}
+
+.like{
+  font-size: 15px;
+  font-family:'PT Serif';
+ padding-left: 30px;
+ text-align: center;
 }
 
 .page2{
@@ -224,24 +233,27 @@ a:hover {
   font-family: 'Economica';
 }
 
+.hobby1{
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+}
+
 .volunteering{
-   grid-area: a;
-   width: 600px;
-   height: 1000px;
+   width: 800px;
+   height: 800px;
    background-color:#DB504A;
    text-align:center;
 }
 
 .friends{
-  grid-area: b;
-  width: 600px;
-   height: 1000px;
+  width: 450px;
+   height: 1300px;
    background-color:#DB504A;
    text-align:center;
 }
 
 .travel{
-  grid-area: c;
   width: 600px;
    height: 1000px;
    background-color:#DB504A;
@@ -258,13 +270,9 @@ a:hover {
 
 .hobby{
   padding-top: 100px;
-  padding-left: 73px;
+  padding-left: 75px;
+  padding-right: 75px;
   gap: 50px;
-  display: grid;
-  grid-template:
-  "a b"
-  "c d"
-  ;
 }
 
 
