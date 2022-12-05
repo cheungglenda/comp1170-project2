@@ -97,7 +97,6 @@ a {
     margin-left:8%;
 }
 
-
 .glendaIntroPic {
     display:flex;
     height:480px;
@@ -324,7 +323,7 @@ a {
   max-width: 200px;
   max-height: 500px;
   width:86%;
-  text-align:center;
+  margin-left:42.5%;
   justify-content:center;
   align-items:center;
   grid-column-gap:2%;
@@ -336,7 +335,7 @@ a {
   background-color:#242F40;
   justify-content:center;
   align-items:center;
-  display:flex;
+  display:block;
   margin-top:30%;
   margin-left:7%;
   outline-offset: -20px;
@@ -368,5 +367,178 @@ a {
 @media only screen and (max-width:950px){
   .navbarHeader {
   font-size:18px;
+  }
+
+  .glendaLeftColumnTop {
+    position: absolute;
+    top: 12%;
+    width:100%;
+    margin-left:8%;
+    grid-template:
+    "f" 410px
+    "g" 31px
+    "h" 275px
+    ;
+    gap:10px;
+  }
+
+  .glendaIntroPic {
+    grid-area: f;
+    justify-content:center;
+    width:400px;
+    height:400px;
+    margin-left:5%;
+  }
+
+  .glendaSocials {
+    grid-area: g;
+  }
+
+  .glendaEducation {
+    grid-area: h;
+    height:270px;
+    width:100%;
+  }
+
+  .glendaRightColumnTop {
+    margin-top:60%;
+    top:75%;
+    display:grid;
+    grid-template:
+    "a" 35px
+    "b" 60px 
+    "c" 350px
+    "d" 350px
+    "e" 350px
+    ;
+    width:100%;
+    gap:10px;
+  }
+
+  .glendaHeaderText {
+    font-size:35px;
+    width:100%;
+    text-align:center;
+    grid-area: a;
+  }
+
+  .glendaHeaderDesc {
+    width:100%;
+    text-align:center;
+    font-size:18px;
+    grid-area: b;
+    overflow-wrap:normal;
+  }
+
+  .glendaFadeImage1 {
+    width:350px;
+    height:350px;
+    grid-area:c;
+    display:block;
+    margin-left:15%;
+    margin-right:auto;
+  } 
+
+  .glendaFadeImage1 img, .glendaFadeImage2 img, .glendaFadeImage3 img {
+    width:350px;
+    height:350px;
+  }
+
+.glendaFadeImage2 {
+    margin-left:15%;
+    width:350px;
+    height:350px;
+    grid-area:d;
+    margin-top:1%;
+  }
+
+  .glendaFadeImage3 {
+    width:350px;
+    height:350px;
+    grid-area:e;
+    margin-left:15%;
+    margin-top:1%;
+  }
+
+  .glendaSecondBodyContainer {
+    margin-top:410%;
+    display:grid;
+    grid-template:
+    "i" 35px
+    "j" 30px 
+    "k" 300px
+    "l" 300px
+    "m" 300px
+    ;
+    width:100%;
+    gap:30px;
+  }
+
+  .glendaGrid1 {
+    grid-area: i; 
+    width: 95%;
+    height: 300px;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .glendaGrid2 {
+    grid-area: j;
+    margin-top:55%;
+  }
+  
+  .glendaGrid3 {
+    grid-area: k; 
+    margin-top:125%;
+  }
+  
+  .glendaGrid4 {
+    grid-area: l;
+    margin-top:150%;
+  }
+  
+  .glendaGrid5 {
+    grid-area: m; 
+    margin-top:175%;
+  
+  }
+
+  .glendaLastBodyContainer {
+    width:90%;
+    height:500%;
+    margin-top:310%;
+  }
+
+  .glendaSecondGrid {
+    margin-top:0;
+    display:grid;
+    grid-template:
+    "n" 450px
+    "o" 450px 
+    "p" 450px
+    "q" 450px
+    ;
+    gap:10px;
+  }
+
+  .glendaGrid6 img, .glendaGrid7 img, .glendaGrid8 img, .glendaGrid9 img {
+    width:300px;
+    height:450px;
+  }
+
+  .glendaGrid6 {
+    grid-area: n;
+  }
+
+  .glendaGrid7 {
+    grid-area: o;
+  }
+
+  .glendaGrid8 {
+    grid-area: p;
+  }
+
+  .glendaGrid9 {
+    grid-area: q;
   }
 }
