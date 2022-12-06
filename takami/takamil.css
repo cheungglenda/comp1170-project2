@@ -163,9 +163,7 @@ a:hover {
 .font1{
    font-family:'PT Serif';
    font-size: 15px;
-   position:absolute;
-   height: 100px;
-   left: 700px ;
+   
 }
 
 .font2{
@@ -247,59 +245,60 @@ a:hover {
 
 .volunteering{
    width: 800px;
-   height: 800px;
+   height: 950px;
    background-color:#DB504A;
    text-align:center;
 }
 
-
-.volunteering-pic{
-  grid-template: 
-  "a a b"
-  "c c b"
-  "e f f";
-  display: grid;
-  }
-
-.vpic1{
- width:400px;
- height: 300px;
- grid-area: "a";
+.gallery{
+  columns: 3;
+  padding: 15px 15px;
 }
 
-.vpic2{
-  width:230px;
- height: 300px;
- grid-area: "b";
- }
+.gallery img{
+  width:100%;
+  height:auto;
+}
 
- .vpic3{
-  width:300px;
-  height: 300px;
-  grid-area: "c";
- }
+.vsentence{
+  width: 250px;
+  height: 220px;
+  background-color:#7Bd6E0;
+}
 
- .vpic4{
-  width:500px;
- height: 500px;
- grid-area: "d";
- }
+.hover {
+  position: relative;
+  
+}
+.hover .hover-img {
+  margin: 0;
+  padding: 0;
+}
 
- .vpic5{
-  width:500px;
- height: 500px;
- grid-area: "e";
- }
+.hover .hover-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: rgba(0,0,0,0.65);
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
 
- .vpic6{
-  width:500px;
-  height: 500px;
-  grid-area: "f";
- }
+.hover .hover-text .text1 {
+  font-size: 22px;
+  font-family: 'PT Serif';
+}
+
+.hover:hover .hover-text {
+  opacity: 1;
+}
 
 .friends{
-  width: 450px;
-   height: 1300px;
+  width: 1300px;
+   height: 700px;
    background-color:#DB504A;
    text-align:center;
 }
