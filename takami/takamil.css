@@ -116,12 +116,12 @@ a:hover {
   padding-top: 50px;
 }
 
-.firstpic{
-  border-radius: 100px 100px 0px 0px;  
-  width: 560px;
-  height: 550px;
-  padding-left: 80px;
 
+.firstpic1{
+  width: 600px;
+  height:500px;
+  padding-left: 100px;
+  padding-top: 50px;
 }
 
 .name{
@@ -135,6 +135,12 @@ a:hover {
   padding-left: 30px;
  text-align: center;
 
+}
+
+.gree{
+  font-size: 20px;
+   font-family:'PT Serif';
+  padding-left: 30px;
 }
 
 .like{
@@ -246,6 +252,51 @@ a:hover {
    text-align:center;
 }
 
+
+.volunteering-pic{
+  grid-template: 
+  "a a b"
+  "c c b"
+  "e f f";
+  display: grid;
+  }
+
+.vpic1{
+ width:400px;
+ height: 300px;
+ grid-area: "a";
+}
+
+.vpic2{
+  width:230px;
+ height: 300px;
+ grid-area: "b";
+ }
+
+ .vpic3{
+  width:300px;
+  height: 300px;
+  grid-area: "c";
+ }
+
+ .vpic4{
+  width:500px;
+ height: 500px;
+ grid-area: "d";
+ }
+
+ .vpic5{
+  width:500px;
+ height: 500px;
+ grid-area: "e";
+ }
+
+ .vpic6{
+  width:500px;
+  height: 500px;
+  grid-area: "f";
+ }
+
 .friends{
   width: 450px;
    height: 1300px;
@@ -260,13 +311,7 @@ a:hover {
    text-align:center;
 }
 
-.dog {
-  grid-area: d;
-  width: 600px;
-   height: 1000px;
-   background-color:#DB504A;
-   text-align:center;
-}
+
 
 .hobby{
   padding-top: 100px;
@@ -311,10 +356,25 @@ a:hover {
   font-family:'PT Serif';
   font-size: 30px;
   padding-top: 5px;
+  width: 400px;
+  height: 80px;
+  background-color:#242F40;
+  text-align: center;
+  color: #EDEBD7;
+  padding-top: 20px;
+  align-items: center;
 }
+
+
 
 .font5{
   color: #EDEBD7;
   font-family:'PT Serif';
   font-size: 30px;
+}
+
+.font5-1{
+  color: #EDEBD7;
+  font-family:'PT Serif';
+  font-size: 20px;
 }
