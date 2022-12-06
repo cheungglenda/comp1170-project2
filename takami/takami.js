@@ -8,3 +8,6 @@ $(".project-img").modaal({
       $('html').css('overflow-y','scroll');
     }
   });
+
+
+ 
