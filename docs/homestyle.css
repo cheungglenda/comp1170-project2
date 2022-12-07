@@ -163,31 +163,20 @@ a:hover {
   opacity:0.9;
 }
 
-.fenixGridLink {
-  width:100%;
-  height:70px;
-  background-color:#314056;
-  font-size:22px;
-  margin-top:270px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-
 .glendaGrid {
   background-color:#EDEBD7;
   opacity:0.9;
 }
 
-.glendaPic{
+.studentPic{
   width: 100%;
-  height: 100%;
+  height: 80%;
   object-fit:cover;
 }
 
-.glendaGridLink {
+.gridLink {
   width:100%;
-  height:70px;
+  height:20%;
   background-color:#314056;
   font-size:22px;
   display:flex;
@@ -201,54 +190,15 @@ a:hover {
   opacity: 0.9;
 }
 
-.sanlyPic{
-  width: 100%;
-  height: 100%;
-  object-fit:cover;
-}
-
-.sanlyGridLink {
-  width:100%;
-  height:70px;
-  background-color:#314056;
-  font-size:22px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  margin-top:-5px;
-
-}
 
 .justinGrid {
   background-color:#E3B23C;
   opacity: 0.9;
 }
 
-.justinGridLink {
-  width:100%;
-  height:70px;
-  background-color:#314056;
-  font-size:22px;
-  margin-top:271px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-
 .takamiGrid {
   background-color:#DB504A;
   opacity: 0.9;
-}
-
-.takamiGridLink {
-  width:100%;
-  height:70px;
-  background-color:#314056;
-  font-size:22px;
-  margin-top:271px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
 }
 
 .about{
@@ -321,6 +271,5 @@ a:hover {
   .sanlyGrid {
     grid-area:c;
   }
-
 
 }
