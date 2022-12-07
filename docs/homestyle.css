@@ -1,20 +1,25 @@
-body , html {
-  height: 100%;
-  margin: 0px;
-}
-
-
 /*Background*/
 
 body , html {
   height:100%;
   margin:0px;
+  background-color:#EDEBD7;
 }
 
 .background {
 width: 100%;
-height: 100vh;
+height: 100%;
 top: 0px; 
+}
+
+.meetHeader {
+  font-weight:300;
+  font-size:60px;
+}
+
+.description {
+  font-weight:100;
+  font-size:20px;
 }
 
 .navbar {
@@ -59,7 +64,7 @@ top: 0px;
 
 .glendaHeaderLink {
   font-size: 20px;
-  color: #000000;
+  color: #242F40;
 }
 
 .glendaHeaderLink:hover{
@@ -119,10 +124,11 @@ a:hover {
 
 .homeWindowFrame {
   width: 900px;
-  height: 600px;
+  height: 650px;
   margin: auto;
   border: 3px solid #E3B23C;
   background-color:#e4e0d9;
+  margin-top:5%;
 }
 
 .homeNavFrame {
@@ -154,77 +160,95 @@ a:hover {
 
 .fenixGrid {
   background-color:#5BCCD9;
-   opacity: 0.8;
+  opacity:0.9;
 }
 
 .fenixGridLink {
-  width:150px;
+  width:100%;
   height:70px;
   background-color:#314056;
   font-size:22px;
-  text-align:center;
   margin-top:270px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .glendaGrid {
-  background-color:#242F40;
-  opacity: 0.8;
+  background-color:#EDEBD7;
+  opacity:0.9;
+}
+
+.glendaPic{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
 }
 
 .glendaGridLink {
-  width:150px;
+  width:100%;
   height:70px;
   background-color:#314056;
   font-size:22px;
-  text-align:center;
-  margin-top:270px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:-5px;
 }
 
 .sanlyGrid {
-  background-color:#EDEBD7;
-  opacity: 0.8;
+  background-color:#314056;
+  opacity: 0.9;
 }
-.sanly{
-  width: 100%;
-  height: 79%;
 
+.sanlyPic{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
 }
 
 .sanlyGridLink {
   width:100%;
-  height:20%;
+  height:70px;
   background-color:#314056;
   font-size:22px;
-  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:-5px;
 
 }
 
 .justinGrid {
   background-color:#E3B23C;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .justinGridLink {
-  width:150px;
+  width:100%;
   height:70px;
   background-color:#314056;
   font-size:22px;
-  text-align:center;
-  margin-top:270px;
+  margin-top:271px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .takamiGrid {
   background-color:#DB504A;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .takamiGridLink {
-  width:150px;
+  width:100%;
   height:70px;
   background-color:#314056;
   font-size:22px;
-  text-align:center;
-  margin-top:270px;
+  margin-top:271px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .about{
@@ -235,10 +259,68 @@ a:hover {
   width: 100%;
      gap: 20px;
 }
-h1 {
-    font-size: 60px;
-}
-h2{
-    font-size: 32px;
-}
 
+@media only screen and (max-width:950px){
+  .navbarHeader {
+  font-size:18px;
+  }
+
+  .description {
+    font-size:18px;
+  }
+
+  .homeWindowFrame {
+    width:80%;
+    height:1300px;
+  }
+
+  .homeNavFrame {
+    width:100%;
+  }
+
+  .photoGrid {
+    display:grid;
+    grid-template:
+    "a" 240px
+    "b" 220px
+    "c" 220px
+    "d" 220px
+    "e" 220px
+    ;
+    gap:10px;
+    width:100%;
+    justify-content:center;
+  }
+
+  .fenixGrid {
+    grid-area:a;
+  }
+
+  .fenixGridLink {
+    margin-top:175px;
+    font-size: 18px;
+    width:100%;
+    height:20%;
+    text-align:center;
+    align-items:center;
+  }
+
+  .glendaGrid {
+    grid-area:b;
+  }
+
+  .glendaGridLink {
+    margin-top:-4px;
+    font-size: 18px;
+    width:100%;
+    height:20%;
+    text-align:center;
+    align-items:center;
+  }
+
+  .sanlyGrid {
+    grid-area:c;
+  }
+
+
+}
