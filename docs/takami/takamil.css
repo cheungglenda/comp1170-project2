@@ -37,6 +37,18 @@ a:hover {
    text-decoration:none;
 }
 
+.navbarHeader {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:700;
+  font-size:22px;
+  margin-left:3%;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  text-decoration:none;
+}
+
+/**nav bar*/
 .navbar {
    width: 100%;
    margin: auto;
@@ -105,6 +117,7 @@ a:hover {
    color:#5BCCD9;
    text-decoration:none;
  }
+ /**nav bar ends*/
 
 .intro{
    padding-left: 130px;
@@ -425,8 +438,11 @@ body , html {
     flex-direction: column;
     padding-bottom: 80px;
  }
- 
 
+ .navbarHeader {
+  font-size:18px;
+  }
+ 
 .sns{
  width:20px;
  height: 20px;
@@ -468,7 +484,6 @@ body , html {
 
 .font1{
   font-size: 15px;
-  
 }
 
 .font2{
@@ -524,8 +539,6 @@ body , html {
  font-size: 50px;
  max-width: 30%;
 }
-
-
 
 .page3{
 display: flex;
