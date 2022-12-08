@@ -266,7 +266,6 @@ a {
   ;
   display: grid;
   max-width: 350px;
-  max-height: 500px;
   width:100%;
   margin-top:65%;
   margin-left:8%;
@@ -343,7 +342,7 @@ a {
   justify-content:center;
   align-items:center;
   display:block;
-  margin-top:30%;
+  margin-top:0%;
   margin-left:7%;
   outline-offset: -20px;
   outline: 4px solid #5BCCD9;
@@ -371,13 +370,13 @@ a {
   object-fit:cover;
 }
 
-@media only screen and (max-width:950px){
+@media only screen and (max-width:1505px){
   .navbarHeader {
   font-size:18px;
   }
 
   .glendaLeftColumnTop {
-    position: absolute;
+    position: relative;
     top: 12%;
     width:100%;
     margin-left:8%;
@@ -408,17 +407,16 @@ a {
   }
 
   .glendaRightColumnTop {
-    top:75%;
+    position: relative;
     display:grid;
     grid-template:
     "a" 35px
-    "b" 300px 
+    "b" 100px 
     "c" 350px
     "d" 350px
     "e" 350px
     ;
     width:100%;
-    gap:10px;
   }
 
   .glendaHeaderText {
@@ -453,7 +451,7 @@ a {
     width:350px;
     height:350px;
     grid-area:d;
-    margin-top:1%;
+    margin-top:3%;
   }
 
   .glendaFadeImage3 {
@@ -461,21 +459,21 @@ a {
     height:350px;
     grid-area:e;
     margin-left:15%;
-    margin-top:1%;
+    margin-top:5%;
   }
 
   .glendaSecondBodyContainer {
-    margin-top:378%;
     display:grid;
     grid-template:
-    "i" 35px
-    "j" 30px 
-    "k" 300px
-    "l" 300px
-    "m" 300px
+    "i" 
+    "j"  
+    "k"
+    "l" 
+    "m" 
     ;
     width:100%;
     gap:30px;
+    margin-top:15%;
   }
 
   .glendaGrid1 {
@@ -488,12 +486,10 @@ a {
   
   .glendaGrid2 {
     grid-area: j;
-    margin-top:65%;
   }
   
   .glendaGrid3 {
     grid-area: k; 
-    margin-top:135%;
   }
 
   .glendaGrid3img{
@@ -503,23 +499,21 @@ a {
   
   .glendaGrid4 {
     grid-area: l;
-    position:relative;
-    margin-top:160%;
   }
 
   .glendaGrid5 {
     grid-area: m; 
-    margin-top:185%;
   }
 
   .glendaLastBodyContainer {
+    margin:5%;
     width:90%;
-    height:250%;
-    margin-top:310%;
+    position: relative;
   }
 
   .glendaSecondGrid {
     padding-top:10%;
+    position: relative;
     display:grid;
     grid-template:
     "n" 450px
