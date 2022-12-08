@@ -201,12 +201,11 @@ a {
     font-weight:600;
 }
 
-.glendaHeaderDesc {
+.glendaDesc {
   font-family:Arial, Helvetica, sans-serif;
   font-size:20px;
   font-weight:100;
   margin-bottom:4%;
-  line-height:0;
 }
 
 .glendaFadeImage1 {
@@ -244,7 +243,7 @@ a {
   width:350px;
   height:350px;
   justify-content:right;
-  margin-top:50%;
+  margin-top:47%;
   object-fit:cover;
   z-index:2;
   box-shadow: 0px 4px 4px #242F40;
@@ -276,7 +275,10 @@ a {
 
 .glendaGrid1 {
   grid-area: a; 
-  width: 852px;
+  box-sizing:padding-box;
+  padding-left:15px;
+  padding-right:15px;
+  width: 825px;
   height: 350px;
   background-color:#DB504A;
   font-family:Arial, Helvetica, sans-serif;
@@ -285,7 +287,7 @@ a {
   justify-content:center;
   align-items:center;
   display:flex;
-  font-size:20px;
+  font-size:18px;
   box-shadow: -20px -20px #242F40;
 }
 
@@ -327,6 +329,7 @@ a {
   max-width: 200px;
   max-height: 500px;
   width:86%;
+  padding-top:2%;
   margin-left:42.5%;
   justify-content:center;
   align-items:center;
@@ -405,12 +408,11 @@ a {
   }
 
   .glendaRightColumnTop {
-    margin-top:60%;
     top:75%;
     display:grid;
     grid-template:
     "a" 35px
-    "b" 60px 
+    "b" 300px 
     "c" 350px
     "d" 350px
     "e" 350px
@@ -426,12 +428,10 @@ a {
     grid-area: a;
   }
 
-  .glendaHeaderDesc {
-    width:100%;
-    text-align:center;
+  .glendaDesc {
     font-size:18px;
     grid-area: b;
-    overflow-wrap:normal;
+    text-align:center;
   }
 
   .glendaFadeImage1 {
@@ -465,7 +465,7 @@ a {
   }
 
   .glendaSecondBodyContainer {
-    margin-top:410%;
+    margin-top:378%;
     display:grid;
     grid-template:
     "i" 35px
@@ -481,40 +481,45 @@ a {
   .glendaGrid1 {
     grid-area: i; 
     width: 95%;
-    height: 300px;
+    height: 340px;
     justify-content:center;
     align-items:center;
   }
   
   .glendaGrid2 {
     grid-area: j;
-    margin-top:55%;
+    margin-top:65%;
   }
   
   .glendaGrid3 {
     grid-area: k; 
-    margin-top:125%;
+    margin-top:135%;
+  }
+
+  .glendaGrid3img{
+    display:block;
+    width:100%;
   }
   
   .glendaGrid4 {
     grid-area: l;
-    margin-top:150%;
+    position:relative;
+    margin-top:160%;
   }
-  
+
   .glendaGrid5 {
     grid-area: m; 
-    margin-top:175%;
-  
+    margin-top:185%;
   }
 
   .glendaLastBodyContainer {
     width:90%;
-    height:500%;
+    height:250%;
     margin-top:310%;
   }
 
   .glendaSecondGrid {
-    margin-top:0;
+    padding-top:10%;
     display:grid;
     grid-template:
     "n" 450px
