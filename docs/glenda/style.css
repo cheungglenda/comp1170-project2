@@ -302,15 +302,20 @@ a {
 
 .glendaGrid3 {
   grid-area: c; 
+  animation: fadeInAnimation ease 4s;
+  animation-fill-mode: forwards;
 }
 
 .glendaGrid4 {
   grid-area: d;
+  animation: fadeInAnimation ease 4s;
+  animation-fill-mode:backwards;
 }
 
 .glendaGrid5 {
   grid-area: e; 
-
+  animation: fadeInAnimation ease 4s;
+  animation-fill-mode: forwards;
 }
 
 .glendaGrid3 img, .glendaGrid4 img, .glendaGrid5 img {
@@ -349,18 +354,30 @@ a {
 
 .glendaGrid6 {
   grid-area: a; 
+  animation: fadeInAnimation ease;
+  animation-duration:8s;
+  animation-direction:alternate;
 }
 
 .glendaGrid7 {
   grid-area: b;
+  animation: fadeInAnimation ease;
+  animation-duration:8s;
+  animation-direction:alternate;
 }
 
 .glendaGrid8 {
   grid-area: c; 
+  animation: fadeInAnimation ease;
+  animation-duration:8s;
+  animation-direction:alternate;
 }
 
 .glendaGrid9 {
   grid-area: d;
+  animation: fadeInAnimation ease;
+  animation-duration:8s;
+  animation-direction:alternate;
 }
 
 .glendaGrid6 img, .glendaGrid7 img, .glendaGrid8 img, .glendaGrid9 img {
