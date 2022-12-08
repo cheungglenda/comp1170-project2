@@ -328,7 +328,6 @@ a {
   max-width: 200px;
   max-height: 500px;
   width:86%;
-  padding-top:2%;
   margin-left:42.5%;
   justify-content:center;
   align-items:center;
@@ -337,7 +336,7 @@ a {
 
 .glendaLastBodyContainer {
   width:87%;
-  height:500px;
+  height:530px;
   background-color:#242F40;
   justify-content:center;
   align-items:center;
@@ -368,6 +367,16 @@ a {
   width:200x;
   height:400px;
   object-fit:cover;
+}
+
+.glendaProjects {
+  color:white;
+  font-family:arial;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:0;
+  padding-top:30px;
 }
 
 @media only screen and (max-width:1505px){
@@ -479,6 +488,7 @@ a {
   .glendaGrid1 {
     grid-area: i; 
     width: 95%;
+    margin:auto;
     height: 340px;
     justify-content:center;
     align-items:center;
@@ -506,7 +516,10 @@ a {
   }
 
   .glendaLastBodyContainer {
-    margin:5%;
+    margin:auto;
+    margin-top:5%;
+    min-height:265%;
+    max-height:270%;
     width:90%;
     position: relative;
   }
@@ -515,13 +528,14 @@ a {
     padding-top:10%;
     position: relative;
     display:grid;
+    margin:auto;
     grid-template:
     "n" 450px
     "o" 450px 
     "p" 450px
     "q" 450px
     ;
-    gap:10px;
+    gap:15px;
   }
 
   .glendaGrid6 img, .glendaGrid7 img, .glendaGrid8 img, .glendaGrid9 img {
