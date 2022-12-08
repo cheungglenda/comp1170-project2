@@ -8,6 +8,7 @@ body {
     justify-content: space-between;
     border: 2px solid black;
     padding: 0px 190px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .fenix_nav_left {
@@ -119,4 +120,8 @@ font-size: 30px;
 .Fenix_me_text {
     margin: 128px 0px 90px 38px;
 
+}
+
+h1, h2, h3 {
+    font-family:Arial, Helvetica, sans-serif;
 }
